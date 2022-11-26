@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dark-mode.css" id="theme" />
+    <title>PORTFOLIO</title>
+    <link rel="icon" href="img/icon.png" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  </head>
+  <body>
+    <div class="header">
+      <img src="img/japan_w.png" alt="" />
+      <div class="content">
+        <ul style="text-decoration: none">
+          <!-- <button class="one">Home</button> -->
+          <li><a class="one" href="#">Home</a></li>
+          <li><a class="two" href="#">About me</a></li>
+          <li><a class="three" href="#">Skills</a></li>
+          <li><a class="four" href="#">Portfolio</a></li>
+          <li><a class="five" href="#">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="switch">
+        <p class="theme">DARKMODE</p>
+        <input id="check" type="checkbox" />
+      </div>
+    </div>
+    <!-- <hr> -->
+    <div class="home">
+      <div class="text">
+        <div class="h1">
+          <h1 class="name">
+            <spam style="font-size: 3vw">Murad</spam> <br />
+            <spam style="font-size: 1.73vw">Akhmedov</spam>
+          </h1>
+        </div>
+        <div class="p">
+          <p class="job">
+            WEB Developer <br />
+            20 years old, Makhachkala
+          </p>
+        </div>
+        <div class="h4">
+          <h4>
+            <span class="ru"><a onclick="changeLang('ru')">RU</a></span
+            ><span class="palka"> | </span><span class="eng"><a onclick="changeLang('eng')">ENG</a></span>
+          </h4>
+        </div>
+      </div>
+      <div class="img">
+        <img src="img/ya.jpg" alt="" />
+      </div>
+    </div>
+    <div id="about" class="about">
+      <h1 class="about_me">About me</h1>
+      <p class="hey">
+        Hey, I'm Murad - WEB Developer from Makhachkala. <br />
+        I'm interested IT, Programming and everything connected with it.
+      </p>
+      <p class="study">
+        Nowadays, i study at the Dagestan State University of national economy.
+        <br />
+        I'm third year student of faculty of Information Technology.
+      </p>
+      <p class="motto">
+        My motto for life: <br />
+        Do what you love. Love what you do.
+      </p>
+    </div>
+
+    <div id="skills" class="skill">
+      <h1 class="skills">Skills</h1>
+      <div class="skil">
+        <div class="icon">
+          <img src="img/php.png" alt="icon" />
+          <p>PHP</p>
+          <h2>★ ★ ★ ★ ☆</h2>
+        </div>
+        <div class="icon">
+          <img src="img/python.png" alt="icon" />
+          <p>PYTHON</p>
+          <h2>★ ★ ☆ ☆ ☆</h2>
+        </div>
+        <div class="icon">
+          <img src="img/html.png" alt="icon" />
+          <p>HTML</p>
+          <h2>★ ★ ★ ☆ ☆</h2>
+        </div>
+        <div class="icon">
+          <img src="img/css.png" alt="icon" />
+          <p>CSS</p>
+          <h2>★ ★ ★ ☆ ☆</h2>
+        </div>
+        <div class="icon">
+          <img src="img/js.png" alt="icon" />
+          <p>JAVASCRIPT</p>
+          <h2>☆ ☆ ☆ ☆ ☆</h2>
+        </div>
+        <div class="icon">
+          <img src="img/lara.png" alt="icon" />
+          <p>LARAVEL</p>
+          <h2>★ ☆ ☆ ☆ ☆</h2>
+        </div>
+        <div class="icon">
+          <img src="img/sql.png" alt="icon" />
+          <p>SQL</p>
+          <h2>★ ★ ☆ ☆ ☆</h2>
+        </div>
+        <div class="icon">
+          <img src="img/term.png" alt="icon" />
+          <p>LINUX TERMINAL</p>
+          <h2>★ ★ ☆ ☆ ☆</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="portfolio">
+      <h1 class="port">Portfolio</h1>
+      <div class="maket">
+        <img src="img/maket.png" alt="" />
+        <p><a href="#">WebSite - landing</a></p>
+      </div>
+      <div class="maket">
+        <img src="img/ICar.png" alt="" />
+        <p><a href="#">ICar - Home page</a></p>
+      </div>
+    </div>
+
+    <div id="contacts" class="footer">
+      <h1 class="contacts">Contacts</h1>
+      <p class="chat">
+        Want to know more or just chat? <br />
+        You are welcome!
+      </p>
+      <h4 class="send">Send message</h4>
+      <div class="icons">
+        <img style="width: 3vw" src="img/tel.png" alt="" />
+        <img style="width: 3vw" src="img/wht.png" alt="" />
+        <img style="width: 3vw" src="img/malo.png" alt="" />
+        <img style="width: 3vw" src="img/500.png" alt="" />
+      </div>
+    </div>
+    <div class="foot">
+      <p class="contact">Contact me on<br />Telegram, Whatsapp, Mail, GitHub</p>
+    </div>
+
+    <a href="#" id="scroll" class="arrowUp .arrowUp-active">
+      <!-- <img src="img/up-arrow.png" alt=""> -->
+      <svg class="scroll-up_svg" viewBox="-2 -2 52 52">
+        <path
+          class="scroll-up_svg-path"
+          d="
+                    M24, 0
+                    a24,24 0 0,1 0,48
+                    a24,24 0 0,1 0,-48
+                "
+        />
+      </svg>
+    </a>
+
+    <!-- <button class="lol">send some</button> -->
+
+    <!-- <select class="changLang">
+        <option value="eng">ENG</option>
+        <option value="ru">RU</option>
+    </select> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
